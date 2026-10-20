@@ -1,0 +1,21 @@
+---
+title: "STA 556 Reproducible Report"
+author: Dr Ben
+format: html
+jupyter: python3
+---
+
+# Introduction
+
+This report demonstrates a reproducible statistical workflow.
+
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv(
+    "data/processed/analysis_data.csv"
+)
+
+df.head()
+```
