@@ -7,7 +7,7 @@ jupyter: python3
 
 # Introduction
 
-This report demonstrates a reproducible statistical workflow.
+This report demonstrates a reproducible statistical workflow
 
 ```{python}
 import pandas as pd
@@ -18,4 +18,10 @@ df = pd.read_csv(
 )
 
 df.head()
+
+points_mean = df["PTS"].mean()
 ```
+
+the mean of ppg is `{python} points_mean`.
+
+as i write stuff it updates
